@@ -12,7 +12,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Fprintf(w, "Failed to get hostname, err: %v\n", err)
 	} else {
-		fmt.Fprintf(w, "Hello Jack, I am in %s!\n", hostName)
+		fmt.Fprintf(w, "Hello Jessie, I am in %s!\n", hostName)
 	}
 }
 
